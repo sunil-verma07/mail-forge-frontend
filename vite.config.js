@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://mail-forge-backend-1.onrender.com/',
+        target: 'https://mail-forge-backend-1.onrender.com',
         changeOrigin: true,
       },
     },
