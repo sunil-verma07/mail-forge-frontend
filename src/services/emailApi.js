@@ -5,6 +5,8 @@ const api = axios.create({
   timeout: 30000,
 });
 
+console.log(import.meta.env.BASE,"base")
+
 /**
  * Send an email
  */
